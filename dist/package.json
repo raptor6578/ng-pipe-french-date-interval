@@ -1,0 +1,21 @@
+{
+  "name": "ng-pipe-french-date-interval",
+  "version": "1.0.1",
+  "description": "date interval",
+  "main": "bundles/dateInterval.umd.js",
+  "module": "index.js",
+  "keywords": [
+    "angular",
+    "date",
+    "date interval",
+    "intervalle date"
+  ],
+  "author": "DAMM Nicolas",
+  "license": "MIT",
+  "dependencies": {
+    "date_format": "^0.1.1"
+  },
+  "peerDependencies": {
+    "@angular/common": "^7.2.0-rc.0"
+  }
+}

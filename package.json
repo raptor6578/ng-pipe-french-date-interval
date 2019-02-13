@@ -1,0 +1,24 @@
+{
+  "name": "ng-pipe-french-date-interval",
+  "version": "1.0.1",
+  "description": "date interval",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "ngc",
+    "package": "rollup -c",
+    "minify": "uglifyjs dist/bundles/dateInterval.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/dateInterval.umd.min.js",
+    "build": "npm run transpile && npm run package && npm run minify"
+  },
+  "author": "DAMM Nicolas",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/compiler": "^7.2.4",
+    "@angular/compiler-cli": "^7.2.4",
+    "rollup": "^1.1.2",
+    "typescript": "~3.2.2",
+    "uglify-js": "^3.4.9"
+  },
+  "dependencies": {
+    "date_format": "^0.1.1"
+  }
+}

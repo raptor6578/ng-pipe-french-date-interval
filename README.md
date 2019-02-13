@@ -35,9 +35,9 @@ import { DateIntervalModule} from 'ng-pipe-french-date-interval';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-```
+```  
 
-#how to use
+# How to use  
 
 component example :
 
